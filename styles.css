@@ -1,0 +1,96 @@
+.wa-text-enhancer-btn {
+  position: fixed;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #25D366;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.wa-text-enhancer-btn:hover {
+  background-color: #128C7E;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.wa-text-enhancer-popup {
+  position: fixed;
+  right: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
+  width: 300px;
+  display: none;
+}
+
+.wa-text-enhancer-popup.active {
+  display: block;
+}
+
+.wa-text-enhancer-textarea {
+  width: 100%;
+  min-height: 100px;
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.wa-text-enhancer-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.wa-text-enhancer-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.wa-text-enhancer-button {
+  background-color: #25D366;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.wa-text-enhancer-button:hover {
+  background-color: #128C7E;
+}
+
+.wa-text-enhancer-result {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f0f2f5;
+  border-radius: 4px;
+}
+
+.wa-text-enhancer-copy {
+  background-color: #128C7E;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 12px;
+} 
